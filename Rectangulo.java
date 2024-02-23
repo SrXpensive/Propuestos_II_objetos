@@ -17,4 +17,14 @@ public class Rectangulo {
         System.out.println("Punto inferior izquierdo: ("+this.x1+", "+this.y1+")");
         System.out.println("Punto superior derecho: ("+this.x2+", "+this.y2+")");
     }
+    public double perimetro(){
+        double base = this.x2-this.x1;
+        double altura = this.y2-this.y1;
+        return (base*2)+(altura*2);
+    }
+    public double area(){
+        double base = this.x2-this.x1;
+        double altura = this.y2-this.y1;
+        return base*altura;
+    }
 }

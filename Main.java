@@ -18,7 +18,10 @@ public class Main {
         System.out.println("¿"+p1.nombre+" es jubilado?: "+p1.esJubilado());
         System.out.println("¿"+p2.nombre+" es jubilado?: "+p2.esJubilado());
         System.out.println("La diferencia de edad entre "+p1.nombre+" y "+p2.nombre+" es de "+p1.diferenciaEdad(p2)+" años");
-        Rectangulo r1 = new Rectangulo(2,3,2,3);
+        Rectangulo r1 = new Rectangulo(2,3,4,5);
         r1.mostrarRectangulo();
+        System.out.println("El perímetro del rectángulo es "+r1.perimetro());
+        System.out.println("El área del rectángulo es "+r1.area());
+
     }
 }
